@@ -23,12 +23,7 @@ private:
 		Coach*previous, *next;
 		std::string firstname, lastname;
 		IType val;
-		std::string getFirst() {
-			return firstname;
-		}
-		std::string getLast() {
-			return lastname;
-		}
+		
 	};
 	bool compareCoach(Coach& coach1, Coach& coach2) {
 		//std::cout << "Last names: "<<coach1.lastname << " " << coach2.lastname << "\n";

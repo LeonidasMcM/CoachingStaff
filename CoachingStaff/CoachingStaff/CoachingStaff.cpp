@@ -250,7 +250,7 @@ bool CoachingStaff::whichCoach(int i, std::string & firstName, std::string & las
 	//if (i >= 0 && i < this->size) 
 	else {
 	
-		int count = 0;
+		
 		Coach *temp = this->Head;
 		for(int j=0;j<i;j++) {
 			temp = temp->next;
